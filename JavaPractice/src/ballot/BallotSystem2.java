@@ -9,13 +9,13 @@ public class BallotSystem2 {
 		int n = (int) random.nextInt(100);
 		System.out.println(n);
 		if (n >= 0 && n < 5) {
-			return "‘å‹g";
+			return "å¤§å‰";
 		} else if (n > 5 && n < 20) {
-			return "’†‹g";
+			return "ä¸­å‰";
 		} else if (n >= 20 && n < 85) {
-			return "¬‹g";
+			return "å°å‰";
 		} else {
-			return "‹¥";
+			return "å‡¶";
 		}
 	}
 
